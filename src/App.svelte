@@ -23,7 +23,6 @@
     display: inline-block;
   }
 
-
   p {
     position: absolute;
     color: var(--foreground-color);
@@ -34,9 +33,6 @@
     text-transform: uppercase;
     white-space: nowrap;
   }
-
-
-
 </style>
 
 <main>
