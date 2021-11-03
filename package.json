@@ -1,0 +1,28 @@
+{
+  "name": "swarm.trade",
+  "version": "1.0.0",
+  "description": "Just your run-of-the-mill swarm trader.",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwhitley/swarm.trade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwhitley/swarm.trade/issues"
+  },
+  "homepage": "https://github.com/kwhitley/swarm.trade#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "sass": "^1.37.5",
+    "svelte": "^3.37.0",
+    "svelte-preprocess": "^4.7.4",
+    "vite": "^2.4.4"
+  }
+}
