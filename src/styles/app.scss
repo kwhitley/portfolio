@@ -6,6 +6,7 @@
 :root {
   --background-color: #fff;
   --foreground-color: #222;
+  --accent-color: #f0c;
 
   @media (prefers-color-scheme: dark) {
     --background-color: #222;
@@ -122,5 +123,16 @@ td {
 tr {
   &:nth-child(even) {
     background-color: rgba(0,0,0,0.05);
+  }
+}
+
+a {
+  // text-decoration: none;
+  color: var(--foreground-color);
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
   }
 }
