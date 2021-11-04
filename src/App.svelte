@@ -4,7 +4,7 @@
 
 <style type="scss">
   h1 {
-    font-size: clamp(2rem, 10vmin, 5rem);
+    font-size: clamp(2rem, 10vw, 8rem);
     white-space: nowrap;
   }
 
@@ -26,7 +26,7 @@
   p {
     position: absolute;
     color: var(--foreground-color);
-    font-size: clamp(0.7rem, 2.5vmin, 1rem);
+    font-size: clamp(0.7rem, 2.5vw, 1.2rem);
     left: 0;
     top: 100%;
     letter-spacing: -0.01em;
