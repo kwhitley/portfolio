@@ -6,6 +6,12 @@
   h1 {
     font-size: clamp(2rem, 10vw, 8rem);
     white-space: nowrap;
+
+    @media (prefers-color-scheme: dark) {
+      span {
+        opacity: 0.11;
+      }
+    }
   }
 
   main {
@@ -17,6 +23,15 @@
     color: var(--accent-color);
     position: relative;
     display: inline-block;
+
+    @media (prefers-color-scheme: dark) {
+      color: var(--foreground-color);
+      text-shadow: 0 0 1em rgba(255, 0, 200, 0.6),
+        0 0 0.5em rgba(255, 0, 204, 0.5),
+        0 0 0.2em rgba(255, 0, 204, 0.5),
+        0 0 0.1em rgba(255, 0, 204, 1),
+        0 0 0.04em rgba(255, 230, 250, 1);
+    }
   }
 
   p {
@@ -28,12 +43,16 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     white-space: nowrap;
+
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.3;
+    }
   }
 </style>
 
 <main>
   <h1>
-    <em>swarm</em>.trade
+    <em>swarm</em><span>.trade</span>
   </h1>
 
   <p>by <a href="https://twitter.com/kevinrwhitley">@kevinrwhitley</a></p>
