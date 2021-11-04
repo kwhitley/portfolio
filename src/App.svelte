@@ -4,7 +4,7 @@
 
 <style type="scss">
   h1 {
-    font-size: clamp(2rem, 10vw, 8rem);
+    font-size: clamp(2rem, 10vmax, 8rem);
     white-space: nowrap;
 
     @media (prefers-color-scheme: dark) {
@@ -17,6 +17,11 @@
   main {
     margin: 0 1em 12vh;
     position: relative;
+    transition: transform 0.15s ease;
+
+    @media (orientation: portrait) {
+      transform: rotate(-90deg);
+    }
   }
 
   em {
@@ -37,7 +42,7 @@
   p {
     position: absolute;
     color: var(--foreground-color);
-    font-size: clamp(0.7rem, 2.5vw, 1.2rem);
+    font-size: clamp(0.7rem, 2.5vmax, 1.2rem);
     left: 0;
     top: 100%;
     letter-spacing: -0.01em;
