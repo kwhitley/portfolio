@@ -26,7 +26,7 @@
 
     @media (prefers-color-scheme: dark) {
       color: var(--foreground-color);
-      text-shadow: 0 0 1em rgba(255, 0, 200, 0.6),
+      text-shadow: 0 0 1em rgba(255, 0, 200, 1),
         0 0 0.5em rgba(255, 0, 204, 0.5),
         0 0 0.2em rgba(255, 0, 204, 0.5),
         0 0 0.1em rgba(255, 0, 204, 1),
