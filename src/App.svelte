@@ -8,10 +8,6 @@
     white-space: nowrap;
   }
 
-  h2 {
-    text-align: center;
-  }
-
   main {
     margin: 0 1em 12vh;
     position: relative;
