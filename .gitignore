@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VS Code settings should not be checked in
+.vscode
