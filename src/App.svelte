@@ -5,6 +5,8 @@
 
 <style type="scss">
   h1 {
+    // font-family: Arial Narrow, sans-serif;
+    // letter-spacing: 0;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: clamp(2rem, 5vmax, 6rem);
     white-space: nowrap;
@@ -13,8 +15,7 @@
   main {
     margin: 0 1em 12vh;
     position: relative;
-    transition: transform 0.15s ease;
-    transition: opacity 1s ease;
+    transition: transform 0.1s ease, opacity 1s ease;
     opacity: 1;
 
     @media (orientation: portrait) {
