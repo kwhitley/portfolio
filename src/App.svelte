@@ -6,7 +6,7 @@
 <style type="scss">
   h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: clamp(2rem, 5vmax, 8rem);
+    font-size: clamp(2rem, 5vmax, 6rem);
     white-space: nowrap;
   }
 
