@@ -6,6 +6,12 @@
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: -0.05em;
+    // opacity: 0.6;
+
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.41;
+      font-weight: 100;
+    }
   }
 
   section {
@@ -16,13 +22,10 @@
     > *:not(:last-child) {
       margin-right: 0.4em;
     }
-  }
 
-  a {
-    transition: all 0.15s ease;
-
-    &:hover {
-      transform: scale(1.1);
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.6;
+      font-weight: 200;
     }
   }
 </style>
