@@ -1,7 +1,7 @@
 {
-  "name": "swarm.trade",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Just your run-of-the-mill swarm trader.",
+  "description": "Just your run-of-the-mill portfolio site.",
   "main": "./dist/index.html",
   "scripts": {
     "dev": "vite",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kwhitley/swarm.trade.git"
+    "url": "git+https://github.com/kwhitley/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kwhitley/swarm.trade/issues"
+    "url": "https://github.com/kwhitley/portfolio/issues"
   },
-  "homepage": "https://github.com/kwhitley/swarm.trade#readme",
+  "homepage": "https://github.com/kwhitley/portfolio#readme",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "sass": "^1.37.5",

@@ -1,10 +1,13 @@
 <script>
   import '~/styles/app.scss'
+  import SocialLinks from './SocialLinks.svelte'
 </script>
 
 <style type="scss">
   h1 {
-    font-size: clamp(2rem, 10vmax, 8rem);
+    font-family: 'Roboto Condensed', sans-serif;
+    // font-family: 'Bitter', serif;
+    font-size: clamp(2rem, 5vmax, 8rem);
     white-space: nowrap;
 
     @media (prefers-color-scheme: dark) {
@@ -38,27 +41,17 @@
         0 0 0.04em rgba(255, 230, 250, 1);
     }
   }
-
-  p {
-    position: absolute;
-    color: var(--foreground-color);
-    font-size: clamp(0.7rem, 2.5vmax, 1.2rem);
-    left: 0;
-    top: 100%;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    white-space: nowrap;
-
-    @media (prefers-color-scheme: dark) {
-      opacity: 0.3;
-    }
-  }
 </style>
 
 <main>
   <h1>
-    <em>swarm</em><span>.trade</span>
+    My name is <em>Kevin Whitley</em>, and
+    <br />
+    I design <em>elegant code</em> for
+    <br>
+    <strike>myself</strike> <em>everyone</em>.
   </h1>
 
-  <p>by <a href="https://twitter.com/kevinrwhitley">@kevinrwhitley</a></p>
+  <SocialLinks />
 </main>
+
