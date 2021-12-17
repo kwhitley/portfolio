@@ -76,7 +76,7 @@
   br {
     display: none;
 
-    @media (min-width: 58em), (max-aspect-ratio: 1/2) {
+    @media (min-width: 56em), (max-aspect-ratio: 1/2) {
       display: block;
     }
   }
