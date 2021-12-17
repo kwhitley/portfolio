@@ -1,4 +1,35 @@
 <style type="scss">
+  br {
+    display: none;
+
+    @media (min-width: 57em), (max-aspect-ratio: 1/2) {
+      display: block;
+    }
+  }
+
+  span {
+    white-space: nowrap;
+  }
+
+  em {
+    color: var(--accent-color);
+    position: relative;
+    display: inline-block;
+  }
+
+  u {
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-flex;
+    transition: all 0.1s ease;
+    max-width: 5em;
+  }
+
+  section {
+    outline: 1px solid red;
+    display: inline;
+  }
+
   h1 {
     // font-family: Arial Narrow, sans-serif;
     // letter-spacing: -0.04em;
@@ -27,6 +58,23 @@
       // left: -4.1em;
       // margin-left: 0.75em;
     }
+
+    &:hover {
+      outline: 2px dashed cyan;
+      u {
+        max-width: 0;
+        display: none;
+      }
+
+      section:not(.active) {
+        display: none;
+        position: absolute;
+      }
+
+      br {
+        display: none;
+      }
+    }
   }
 
   .outer {
@@ -41,34 +89,24 @@
       // background-color: cyan;
     }
   }
-
-  br {
-    display: none;
-
-    @media (min-width: 56em), (max-aspect-ratio: 1/2) {
-      display: block;
-    }
-  }
-
-  span {
-    white-space: nowrap;
-  }
-
-  em {
-    color: var(--accent-color);
-    position: relative;
-    display: inline-block;
-  }
 </style>
 
 <div class="outer">
   <div class="inner">
     <h1>
-      My name is <span><em>Kevin Whitley</em>,</span> and
-      <br />
-      I design <em>elegant code</em> for
-      <br>
-      <strike>myself</strike> <span><em>everyone</em>.</span>
+      <section>
+        My name is <span><em>Kevin Whitley</em><u>, </u></span>
+      </section>
+      <section>
+        <u>and</u>
+        <br />
+        I design <em>elegant code</em>
+      </section>
+      <section class="active">
+        for
+        <br>
+        <strike>myself</strike> <span><em>everyone</em><u>.</u></span>
+      </section>
     </h1>
   </div>
 </div>
