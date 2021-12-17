@@ -40,7 +40,7 @@
     position: relative;
     padding: 0 var(--padding);
     opacity: 1;
-    margin-bottom: 15em;
+    margin-bottom: 10em;
     text-align: center;
     // max-width: calc(100vw - 2*var(--padding));
 
