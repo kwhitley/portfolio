@@ -6,7 +6,7 @@
 <style type="scss">
   h1 {
     // font-family: Arial Narrow, sans-serif;
-    // letter-spacing: 0;
+    // letter-spacing: -0.04em;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: clamp(2rem, 5vmax, 6rem);
     text-align: left;
@@ -35,12 +35,12 @@
   }
 
   main {
-    --padding: 3em;
+    --padding: 5em;
     margin: 0 1em;
     position: relative;
-    padding: 0 3em;
+    padding: 0 var(--padding);
     opacity: 1;
-    padding-bottom: 6em;
+    margin-bottom: 15em;
     text-align: center;
     // max-width: calc(100vw - 2*var(--padding));
 
@@ -55,6 +55,7 @@
 
     @media (max-aspect-ratio: 1/2) {
       height: 80vh;
+      margin-bottom: 6em;
     }
     // background-color: pink;
   }
@@ -75,9 +76,13 @@
   br {
     display: none;
 
-    @media (min-width: 50rem), (max-aspect-ratio: 1/2) {
+    @media (min-width: 58em), (max-aspect-ratio: 1/2) {
       display: block;
     }
+  }
+
+  span {
+    white-space: nowrap;
   }
 
   em {
@@ -91,11 +96,11 @@
   <div class="outer">
     <div class="inner">
       <h1>
-        My name is <em>Kevin Whitley</em><span class="first">, and
+        My name is <span><em>Kevin Whitley</em>,</span> and
         <br />
-        I design <em>elegant code</em></span> <span class="second"> for
+        I design <em>elegant code</em> for
         <br>
-        <strike>myself</strike> <em>everyone</em>.</span>
+        <strike>myself</strike> <span><em>everyone</em>.</span>
       </h1>
     </div>
   </div>
