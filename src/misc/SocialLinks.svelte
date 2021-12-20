@@ -1,4 +1,8 @@
 <style type="scss">
+  a {
+    text-decoration: underline;
+  }
+
   h2 {
     font-size: clamp(0.9rem, 1.9vmax, 1.6rem);
     margin: 1.6em 0.4em 0 0;
@@ -31,36 +35,36 @@
     // background-color: cyan;
     text-align: left;
 
-    @media (max-aspect-ratio: 1/2) {
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-      flex: 1;
-      text-align: left;
-      // margin-top: 7rem;
+    // @media (max-aspect-ratio: 1/2) {
+    //   display: flex;
+    //   flex-flow: column;
+    //   align-items: center;
+    //   flex: 1;
+    //   text-align: left;
+    //   // margin-top: 7rem;
 
-      h2 {
-        // background-color: green;
-        margin: 2em 0 0.5em 0;
-      }
+    //   h2 {
+    //     // background-color: green;
+    //     margin: 2em 0 0.5em 0;
+    //   }
 
-      > * {
-        width: 10rem;
-      }
+    //   > * {
+    //     width: 10rem;
+    //   }
 
-      section {
-        display: flex;
-        flex-flow: column;
-        // background-color: cyan;
-        flex: 1;
+    //   section {
+    //     display: flex;
+    //     flex-flow: column;
+    //     // background-color: cyan;
+    //     flex: 1;
 
-        > * {
-          flex: 1;
-          margin-bottom: 0.2em;
-          // background-color: red;
-        }
-      }
-    }
+    //     > * {
+    //       flex: 1;
+    //       margin-bottom: 0.2em;
+    //       // background-color: red;
+    //     }
+    //   }
+    // }
   }
 </style>
 
