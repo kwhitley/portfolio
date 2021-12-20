@@ -13,24 +13,10 @@
     position: relative;
     padding: 0 var(--padding);
     opacity: 1;
-    margin-bottom: 10em;
+    // margin-bottom: 10em;
     text-align: center;
-    // max-width: calc(100vw - 2*var(--padding));
 
-    // display: flex;
-    // flex-flow: column;
-    // justify-content: center;
-
-    // > * {
-    //   flex: 1 100%;
-    //   outline: 1px solid red;
-    // }
-
-    @media (max-aspect-ratio: 1/2) {
-      height: 80vh;
-      margin-bottom: 6em;
-    }
-    // background-color: pink;
+    background-color: pink;
   }
 </style>
 

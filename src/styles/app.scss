@@ -49,20 +49,28 @@ body {
   background-color: var(--background-color);
   color: var(--foreground-color);
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   font-family: Sans-Serif;
-  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: red;
 }
 
 #app {
   max-width: 80rem;
-
   display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-  justify-content: center;
+  flex: 1;
+  flex-flow: row;
+  align-items: center;
+  // flex-flow: row wrap;
+  // width: 100%;
+  // justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {

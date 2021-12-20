@@ -1,3 +1,7 @@
+<script>
+  export let active = ''
+</script>
+
 <style type="scss">
   br {
     display: none;
@@ -26,7 +30,7 @@
   }
 
   section {
-    outline: 1px solid red;
+    // outline: 1px solid red;
     display: inline;
   }
 
@@ -49,7 +53,8 @@
         transform instead of this one. */
       transform: rotate(-90deg) translate(-100%, 135%);
       /* transform: rotate(90deg) translate(0, -100%); */
-      margin-top: -50%;
+      margin-top: -60%;
+      margin-left: -10%;
       // margin-top: 5em;
       // background-color: red;
       // position: absolute;
@@ -59,8 +64,8 @@
       // margin-left: 0.75em;
     }
 
-    &:hover {
-      outline: 2px dashed cyan;
+    // &:hover {
+      // outline: 2px dashed cyan;
       u {
         max-width: 0;
         display: none;
@@ -71,10 +76,10 @@
         position: absolute;
       }
 
-      br {
-        display: none;
-      }
-    }
+      // br {
+      //   display: none;
+      // }
+    // }
   }
 
   .outer {
@@ -94,15 +99,15 @@
 <div class="outer">
   <div class="inner">
     <h1>
-      <section>
+      <section class:active={!active || active === 'self'}>
         My name is <span><em>Kevin Whitley</em><u>, </u></span>
       </section>
-      <section>
+      <section class:active={!active || active === 'code'}>
         <u>and</u>
         <br />
         I design <em>elegant code</em>
       </section>
-      <section class="active">
+      <section class:active={!active || active === 'oss'}>
         for
         <br>
         <strike>myself</strike> <span><em>everyone</em><u>.</u></span>
