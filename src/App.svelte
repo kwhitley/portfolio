@@ -8,7 +8,7 @@
   import Code from './pages/code.svelte'
 
   const routes = {
-    '/self': About,
+    '/about': About,
     '/code': Code,
     '/oss': OSS,
   }
@@ -25,11 +25,15 @@
     padding: 0 var(--padding);
     opacity: 1;
     text-align: center;
-    background-color: pink;
+    // background-color: pink;
+
+    @media (max-width: 50em) {
+      --padding: 7vw;
+    }
 
     section {
       // outline: 1px solid cyan;
-      padding: 2em 0 1em;
+      padding: 3em 0 2em;
       // transition: all 2s ease;
       height: auto;
       overflow: hidden;

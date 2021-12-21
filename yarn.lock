@@ -501,6 +501,11 @@ strip-indent@^3.0.0:
   dependencies:
     min-indent "^1.0.0"
 
+supergeneric@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/supergeneric/-/supergeneric-2.1.0.tgz#830254889e79de869dfddda90d9c03f0682ed74b"
+  integrity sha512-sWoMiLDWPbB/vdf0OTqRluzT9GaU7IMYHhe0wqNPALtIL2Z9GfSW22Xp/EaM2l9FVPyf+M1Ldb5TM8OhiViyjw==
+
 svelte-hmr@^0.14.7:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"

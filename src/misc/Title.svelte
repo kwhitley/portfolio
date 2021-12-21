@@ -18,7 +18,6 @@
   }
 
   a {
-    color: var(--accent-color);
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -107,8 +106,8 @@
 <div class="outer">
   <div class="inner">
     <h1 class:active={!!active}>
-      <section class:active={!active || active === 'self'}>
-        My name is <span><a href="/self" use:link>Kevin Whitley</a><u>, </u></span>
+      <section class:active={!active || active === 'about'}>
+        My name is <span><a href="/about" use:link>Kevin Whitley</a><u>, </u></span>
       </section>
       <section class:active={!active || active === 'code'}>
         <u>and</u>

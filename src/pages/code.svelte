@@ -34,3 +34,7 @@
   As an open-source developer, I write libs to make downstream code lightweight, readable, and <em>obvious</em>.  As a mentor and technical
   advisor, I guide along this path as well!
 </p>
+
+<blockquote>
+  The faster we [are able to] move, the faster we can fail - and the faster we can win.
+</blockquote>
