@@ -19,17 +19,13 @@
 </p>
 
 <p>
-  I strongly believe in innovation through collaboration - basically being so danged fast/agile (not in the scrum-sense) that you simply
-  aren't even <em>threatened</em> by your peers seeing your code/secrets (within reason).
+  I strongly believe in innovation through collaboration; that more eyes/feedback on a thing makes it better than the close-sourced equivalent; that we should be leading
+  through obsession and passion, rather than through defending progress with secrets.
 </p>
 
 <p>
-  <strong>[Unpopular] Opinion:</strong> With some exception, I think patents cause more harm than good.
-</p>
-
-<p>
-  To this end, I not only "build-in-public" as much as I'm able, but I continuously share back tooling I've created along the way. Here
-  are a few of the more popular libraries (or just the ones I think are kind of cool), in reverse chronology order:
+  To this end, I not only "build-in-public" as much as I'm able, but also continuously share back tooling created along the way. Here
+  are a few of the more popular libraries (or just the ones I think are pretty cool), in reverse chronological order (most recent first):
 </p>
 
 <ul>
@@ -51,6 +47,12 @@
     <p>
       Personally, this is the lbirary I'm most proud of, despite the far-fewer downloads than the
         aging <a href="https://www.npmjs.com/package/apicache">apicache</a>.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong><a href="https://www.npmjs.com/package/slick-array">slick-array</a></strong> - Sometimes you need a good old-fashioned array, but with automatic indexing for
+      performant lookups (e.g. by id, group, etc).  This library isn't very popular, and it's certainly slower than using unmangled native arrays, but in terms of DX, it wins!
     </p>
   </li>
   <li>
@@ -108,8 +110,8 @@
 
 <p>
   Backed by Dropbox (with expansion plans to Google Drive, etc), Slick allows users to just drop images (even RAW images straight out of their DSLR) into a
-  Dropbox folder.  In seconds, their works will appear in connected galleries for viewing or editing (e.g. titles, locations, stories).  I use this to showcase my own
-  work, and to quickly show subsets to potential clients (e.g. black and white vertical shots).  I built it for me, but decided it would be a fun thing to share!
+  Dropbox folder.  In seconds, their images will appear in connected galleries for viewing or editing (e.g. titles, locations, stories).  I use this to
+  <a href="https://slick.af/kevin">showcase my own work</a>, and to quickly show subsets to potential clients (e.g. black and white vertical shots).  I built it for me, but decided it would be a fun thing to share!
 </p>
 
 <p>If it gets popular, I'll probably go broke.</p>

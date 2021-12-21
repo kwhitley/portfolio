@@ -102,9 +102,12 @@ p, ul, ol {
   margin: 0 0.5em 0 0;
   line-height: 1.6em;
   font-weight: lighter;
+  opacity: 0.9;
+}
 
-  &:not(:last-child) {
-    margin-bottom: 1.6em;
+p, ul, ol, blockquote {
+ &:not(:last-child) {
+    margin-bottom: 1.6rem;
   }
 }
 
@@ -144,6 +147,7 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.15em;
   vertical-align: -0.4em;
+  margin-left: -0.1em;
 }
 
 blockquote:after {
