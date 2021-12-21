@@ -26,45 +26,12 @@
     }
 
     @media (prefers-color-scheme: dark) {
-      opacity: 0.6;
       font-weight: 200;
     }
   }
 
   main {
-    // background-color: cyan;
     text-align: left;
-
-    // @media (max-aspect-ratio: 1/2) {
-    //   display: flex;
-    //   flex-flow: column;
-    //   align-items: center;
-    //   flex: 1;
-    //   text-align: left;
-    //   // margin-top: 7rem;
-
-    //   h2 {
-    //     // background-color: green;
-    //     margin: 2em 0 0.5em 0;
-    //   }
-
-    //   > * {
-    //     width: 10rem;
-    //   }
-
-    //   section {
-    //     display: flex;
-    //     flex-flow: column;
-    //     // background-color: cyan;
-    //     flex: 1;
-
-    //     > * {
-    //       flex: 1;
-    //       margin-bottom: 0.2em;
-    //       // background-color: red;
-    //     }
-    //   }
-    // }
   }
 </style>
 

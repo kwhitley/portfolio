@@ -40,13 +40,12 @@
     <p>
       <strong><a href="https://www.npmjs.com/package/itty-router">itty-router</a></strong> - The world's smallest feature-rich JS microrouter?  Who knows,
         maybe, but this router clocks in at under 500 bytes while giving clean, lightweight routing to any path-based system that
-        handles requests.  This little beast is pretty popular among the <a href="https://workers.cloudflare.com/">Cloudflare Workers</a>
+        handles requests.  This one is rapidly gaining popularity among the <a href="https://workers.cloudflare.com/">Cloudflare Workers</a>
         users (which I originally designed it for).
     </p>
 
     <p>
-      Personally, this is the lbirary I'm most proud of, despite the far-fewer downloads than the
-        aging <a href="https://www.npmjs.com/package/apicache">apicache</a>.
+      Personally, this is the library I'm most proud of, despite having far fewer downloads than the aging <a href="https://www.npmjs.com/package/apicache">apicache</a>.
     </p>
   </li>
   <li>
@@ -104,8 +103,7 @@
 <p>
   Beyond that, I've recently launched a side project, <strong><a href="https://slick.af">Slick.af</a></strong>.  Designed for my own photography/art-sharing needs,
   this app was born on the idea that creative display of your images could cater to the infinitely-lazy (myself), while giving me an excuse to try a full-serverless
-  architecture on a more modern stack (<a href="https://workers.cloudflare.com/">Cloudflare Workers + KV</a>).  This is available for public signup today, and provided
-  free of charge, with ads or information gathering/selling.
+  architecture on a more modern stack (<a href="https://workers.cloudflare.com/">Cloudflare Workers + KV</a>).
 </p>
 
 <p>
@@ -114,4 +112,8 @@
   <a href="https://slick.af/kevin">showcase my own work</a>, and to quickly show subsets to potential clients (e.g. black and white vertical shots).  I built it for me, but decided it would be a fun thing to share!
 </p>
 
-<p>If it gets popular, I'll probably go broke.</p>
+<p>Slick is available for public signup today, and is provided free of charge, without ads or information gathering/selling -
+  thanks in part to the incredible pricing model of <a href="https://workers.cloudflare.com/">Workers</a>.
+</p>
+
+<p>But if it gets popular, I'll probably go broke...</p>

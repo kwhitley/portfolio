@@ -32,17 +32,17 @@
     }
 
     section {
-      // outline: 1px solid cyan;
-      padding: 3em 0 2em;
-      // transition: all 2s ease;
+      padding: 3em 0 3em;
       height: auto;
       overflow: hidden;
       display: block;
       text-align: left;
+      border-bottom: 1px solid var(--foreground-color);
 
       &:empty {
         outline: none;
         height: 0;
+        border-bottom: none;
       }
     }
   }

@@ -8,9 +8,9 @@
   br {
     display: none;
 
-    // @media (min-width: 57em), (max-aspect-ratio: 1/2) {
-    //   display: block;
-    // }
+    @media (min-width: 57em) {
+      display: block;
+    }
   }
 
   span {
